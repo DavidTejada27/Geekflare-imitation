@@ -1,0 +1,82 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    margin: 0 0 100px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img.logo-geekflare{
+    width: 300px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+
+ul.nav-items{
+    display: inline-flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+A:link {text-decoration: none }
+A:hover { color: black;  text-decoration: none }
+A:visited {color: black; text-decoration: none }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
+
+.item{
+    margin: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 228, 230);
+}
+
+.announcement{
+    align-self: center;
+    font-weight: bold;
+}
+
+.section-header{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.section-header > p > a{
+    color: #ffb40b;
+}
+
+.leftside > img{
+    width: 30px;
+    margin: 0 20px 0 0;
+    border-radius: 15px;
+}
+.leftside > p{
+    color: white;
+}
+
+.section-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-start > h1{
+    font-size: xx-large;
+}
+
+
+
