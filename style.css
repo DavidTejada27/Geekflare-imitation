@@ -68,6 +68,9 @@ section{
     color: white;
 }
 
+.rightside > img{
+    margin: 0 5px;
+}
 .section-start{
     display: flex;
     flex-direction: column;
